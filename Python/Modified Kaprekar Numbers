@@ -1,0 +1,20 @@
+p = int(input())
+
+q = int(input())
+flag=0
+for i in range(p,q+1):
+    l=len(list(str(i)))
+    b=list(str(i**2))
+
+    if("".join(b[:(len(b)-l)])==""):
+        start=0
+    else:
+        start=int("".join(b[:(len(b)-l)]))
+    
+    end=int("".join(b[-l:]))
+    
+    if(i==(start+end)):
+        print(i,end=" ")
+        flag=1
+if(flag==0):
+    print("INVALID RANGE")
