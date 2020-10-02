@@ -12,4 +12,7 @@ Its a small step to help a new contributer to an open source platform.😇😇
 
 For adding any code please do upload the your code in respective Language Folder and if not present then you can create your own.😊😊😊
 
+
+NOTE: Please don't make PR for the code already existing.😇😇
+
 HOPE YOU ENJOY CONTRIBUTING HERE!!;);)
